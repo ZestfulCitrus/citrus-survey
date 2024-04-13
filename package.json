@@ -1,0 +1,15 @@
+{
+    "name": "citrus-survey",
+    "workspaces": [
+        "citrus-server",
+        "citrus-front"
+    ],
+    "scripts": {
+      "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+      "build": "npm run build:frontend && npm run build:backend",
+      "start:frontend": "cd citrus-front && npm run dev",
+      "build:frontend": "cd citrus-front && npm run build",
+      "start:backend": "cd citrus-server && npm run start",
+      "build:backend": "cd citrus-server && npm run build"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "citrus-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "server 4 citrus",
+  "main": "mock.js",
+  "scripts": {
+    "start": "nodemon mock.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "nodemon": "^3.1.0"
+  }
+}
