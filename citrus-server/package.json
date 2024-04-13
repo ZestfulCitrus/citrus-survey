@@ -1,7 +1,7 @@
 {
   "name": "citrus-server",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "description": "server 4 citrus",
   "main": "mock.js",
   "scripts": {
