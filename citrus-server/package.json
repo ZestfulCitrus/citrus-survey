@@ -5,7 +5,7 @@
   "description": "server 4 citrus",
   "main": "mock.js",
   "scripts": {
-    "start": "nodemon mock.js"
+    "start": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
